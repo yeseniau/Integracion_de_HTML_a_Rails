@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Lens by HTML5 UP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  
+  <%= stylesheet_link_tag "application", 'data-turbo-track': 'reload' %>
+  <%= javascript_importmap_tags %>
+
+  <%= stylesheet_link_tag "css/main.css" %>
+  <%= stylesheet_link_tag "css/fontawesome-all.min.css" %>
+
+  <noscript><%= stylesheet_link_tag "css/noscript.css" %></noscript>
+
+  </head>
+
+  <body class="is-preload-0 is-preload-1 is-preload-2">
+    <%= yield %>
+
+
+
+    <%=javascript_include_tag("browser.min.js")%>
+    <%=javascript_include_tag("jquery.min.js")%>
+    <%=javascript_include_tag('breakpoints.min.js')%>
+    <%=javascript_include_tag('main.js')%>
+
+		
+    <!-- Scripts -->
+
+  </body>
+</html>
