@@ -2,7 +2,6 @@
 //= link_directory ../stylesheets .css
 //= link_tree ../../javascript .js
 //= link_tree ../../../vendor/javascript .js
-//= link css/main .css
-//= link css/noscript .css
-//= link css/fontawesome-all.min .css
-//= link javascrip/jquery.min .js
+//= link css/main.css
+//= link css/noscript.css
+//= link css/fontawesome-all.min.css
